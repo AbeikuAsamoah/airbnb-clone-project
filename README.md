@@ -61,7 +61,7 @@ id
 title
 description
 location
-price_per_night
+price per night
 
 Relationships:
 A property belongs to a single user (host).
@@ -71,10 +71,10 @@ A property can have multiple reviews.
 3. Bookings
 Important Fields:
 id
-user_id (guest)
-property_id
-start_date
-end_date
+userid (guest)
+propertyid
+startdate
+enddate
 status (e.g., pending, confirmed, cancelled)
 
 Relationships:
